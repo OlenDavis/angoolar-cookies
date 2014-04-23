@@ -1,18 +1,21 @@
 {
-	"name"       : "angoolar-cookies",
-	"authors"    : [ "Olen Davis <spelledlikeitsounds@gmail.com>" ],
-	"description": "This avails Angular's ngCookies module to AngOOlar projects.",
-	"keywords"   : [
-		"angoolar",
-		"angular",
-		"cookies",
-		"ngCookies"
-	],
-	"license" : "MIT",
-	"homepage": "http://angoolar.com",
-	"ignore"  : [
-		"**/.*",
-		"node_modules",
-		"bower_components"
-	]
+  "name": "angoolar-cookies",
+  "authors": [ "Olen Davis <spelledlikeitsounds@gmail.com>" ],
+  "description": "This avails Angular's ngCookies module to AngOOlar projects.",
+  "keywords": [
+    "angoolar",
+    "angular",
+    "cookies",
+    "ngCookies"
+  ],
+  "license": "MIT",
+  "homepage": "http://angoolar.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angoolar": "~0.5.0"
+  }
 }
